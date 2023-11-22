@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/styles/contact.css">
+    <title>Связь с нами</title>
+</head>
+<body>
+    <header class="header__wrapper">
+        <div class="header__wrapper-logo">
+            <img src="./img/header/logo.png" alt="">
+            <a href="./index.html"><h1>OlympWorld</h1></a>
+        </div>
+        <div class="header__wrapper-menu">
+            <ul>
+                <li>
+                    <a href="./history.html">История</a>
+                </li>
+                <li>
+                    <a href="./sportsTypes.html">Виды спорта</a>
+                </li>
+                <li>
+                    <a href="./olympics.html">Олимпиады</a>
+                </li>
+            </ul>
+        </div>
+        <div class="header__wrapper-contact">
+            <a href="./contactUs.html">Написать</a>
+        </div>
+        <div class="header__wrapper-burger">
+            <input id="menu-toggle" type="checkbox" />
+            <label class="menu-btn" for="menu-toggle">
+                <span></span>
+            </label>
+            
+            <ul class="menubox">
+                <li class="menu-item">
+                    <a href="./index.html">Главная</a>
+                </li>
+                <li class="menu-item">
+                    <a href="./history.html">История</a>
+                </li>
+                <li class="menu-item">
+                    <a href="./sportsTypes.html">Виды спорта</a>
+                </li>
+                <li class="menu-item">
+                    <a href="./olympics.html">Олимпиады</a>
+                </li>
+                <li class="menu-item">
+                    <a href="./contactUs.html">Написать</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    
+    <main class="main">
+        <div class="main__info">
+            <div class="main__info-content" id="head-scroll">
+                <div class="main__info-content-title">
+                    <h2>Связь с <strong>нами</strong></h2>
+                </div>
+                <div class="main__info-content-text">
+                    <p>
+                        Мы ценим ваше мнение! Расскажите нам, что вы думаете, задайте вопросы или предложите идеи для улучшения OlympWorld. 
+                        Ваш отзыв важен для нас, и мы готовы слушать вас. Воспользуйтесь формой обратной связи, 
+                        чтобы поделиться своими мыслями и предложениями.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="main__wrapper">
+            <div class="container">
+                <form class="container__form">
+                    <div>
+                        <h2>Оставьте свой отзыв</h2>
+                    </div>
+                    <div class="input-group">
+                        <label for="name">Ваше имя:</label>
+                        <input type="text" id="name" name="name" placeholder="Введите ваше имя" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="email">Ваш email:</label>
+                        <input type="email" id="email" name="email" placeholder="Введите ваш email" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="message">Отзыв:</label>
+                        <textarea id="message" name="message" placeholder="Напишите ваш отзыв" required></textarea>
+                    </div>
+                    <div>
+                        <button type="submit">Отправить отзыв</button>
+                    </div> 
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer__wrapper">
+        <div class="footer__wrapper-info"> 
+            <div>
+                <img src="./img/header/logo.png" alt="">
+                <a href="./index.html"><h1>OlympWorld</h1></a>
+            </div>
+            <div>
+                <h3>
+                    Олимпийские игры – это величественное событие, объединяющее спортсменов со всего мира. 
+                </h3>
+                <p>
+                    <strong style="color: #ff4e4e;">Мы</strong>, команда OlympWorld, с гордостью представляем этот сайт, посвященный олимпийским играм и всему, что с ними связано.
+                </p>
+                <p>
+                    Здесь вы найдете самую свежую информацию о предстоящих соревнованиях, исторические факты о прошлых Олимпиадах, 
+                    интересные статьи о знаменитых спортсменах и их достижениях. Мы стремимся быть вашим надежным 
+                    источником информации о мировом спорте.
+                </p>
+                <p>
+                    Спасибо, что выбрали OlympWorld – <i>ваш путеводитель в мире Олимпийских игр.</i>
+                </p>
+            </div>
+        </div>
+        <div class="footer__wrapper-contact">
+            <div>
+                <h2>Телефон</h2>
+                <a href="tel:+79584651275">+7 (958) 465-12-75</a>
+            </div>
+            <div>
+                <h2>Почта</h2>
+                <a href="mailto:olympworld@gmail.com">olympworld@gmail.com</a>
+            </div>
+        </div>
+        <div class="footer__wrapper-socials">
+            <div><a href="https://t.me/olimpic_peace"><img src="./img/footer/tg.png" alt=""></a></div>
+            <div><a href="https://vk.com/olympicgames"><img src="./img/footer/vk.png" alt=""></a></div>
+            <div><a href="https://www.youtube.com/@Olympics"><img src="./img/footer/youtube.png" alt=""></a></div>
+            <div>
+                <p>Исаков Л.А. - ИКБО-20-22</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/CurrentPage.js"></script>
+    <script src="./js/MainHeadShow.js"></script>
+</body>
+</html>
